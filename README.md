@@ -163,10 +163,6 @@ Make sure to set the following environment variables in your `.env` file:
 - `JWT_KEY`: A secret key for JWT token generation
 
 
-```bash
-npm test
-```
-
 ## 🙏 Acknowledgements
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
