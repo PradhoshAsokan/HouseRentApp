@@ -65,7 +65,6 @@ const Register = () => {
             <Nav>
               <Link to={'/'}>Home</Link>
               <Link to={'/login'}>Login</Link>
-              <Link to={'/register'}>Register</Link>
             </Nav>
 
           </Navbar.Collapse>
@@ -93,7 +92,7 @@ const Register = () => {
               margin="normal"
               fullWidth
               id="name"
-              label="Renter Full Name/Owner Name"
+              label="Full Name"
               name="name"
               value={data.name}
               onChange={handleChange}
