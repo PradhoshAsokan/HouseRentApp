@@ -90,7 +90,6 @@ const Login = () => {
             </Nav>
             <Nav>
               <Link to={'/'}>Home</Link>
-              <Link to={'/login'}>Login</Link>
               <Link to={'/register'}>Register</Link>
             </Nav>
 
@@ -145,7 +144,7 @@ const Login = () => {
                 variant="contained"
                 style={{ width: '200px' }}
               >
-                Sign Up
+                Sign In
               </Button>
             </Box>
             <Grid container>
@@ -154,7 +153,7 @@ const Login = () => {
                   {" Click here"}
                 </Link>
               </Grid>
-              <Grid item>Have an account?
+              <Grid item>Don't have an account?
                 <Link style={{ color: "blue" }} to={'/register'} variant="body2">
                   {" Sign Up"}
                 </Link>
